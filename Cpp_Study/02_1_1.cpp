@@ -2,10 +2,10 @@
 
 using namespace std;
 
-void PlusOne(int &ref) {
+void IncreaseOne(int &ref) {
 	ref++;
 }
-void SwapSign(int& ref) {
+void InverseSign(int& ref) {
 	ref *= -1;
 }
 
@@ -14,9 +14,9 @@ int main(void) {
 	int a = 1; 
 
 	cout << "original value : " << a << endl;
-	PlusOne(a);
+	IncreaseOne(a);
 	cout << "PlusOne function : " << a << endl;
-	SwapSign(a);
+	InverseSign(a);
 	cout << "SwapSign function : " << a << endl;
 
 	return 0;
