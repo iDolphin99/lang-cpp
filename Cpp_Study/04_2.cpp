@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// Ring, Circle, Point class는 모두 자신의 정보를 출력하기 위한 함수를 
+// 멤버에 포함시켜서 Encapsulation를 완성시킴 
+
 class Point
 {
 private :
