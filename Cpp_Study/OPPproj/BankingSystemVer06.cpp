@@ -1,7 +1,7 @@
 /*
-Banking System Ver 0.3
-* add Deep Copy Constructor
-* adjust object pointer array (객체 포인터 배열)
+Banking System Ver 0.6
+* add NormalAccount and HighCreditAccount
+* if you nee, you could add 'virtual' keyword
 */
 
 #include <iostream>
